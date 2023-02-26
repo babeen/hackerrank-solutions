@@ -1,10 +1,10 @@
-// 
+// Order list processing
 
 
 function processOrderList(orderList, orderId, state) {
     // Write your code here
     if(state !== "Processing" && state !=="Delivered"){
-        throw new Error("Invalid state argumrnt"):
+        throw new Error("Invalid state argumrnt");
     }
     
     const result = [];
